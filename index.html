@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Specifies character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Ensures responsive viewport scaling for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the page title displayed in the browser tab -->
+    <title>Retro Diner - Best Burgers & Ice Cream in Town</title>
+    <style>
+        /* Imports Google Fonts: Fredoka One for headings and Nunito for body text */
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Nunito:wght@300;400;600;700;800&display=swap');
+        
+        /* Resets default margins, padding, and sets box-sizing to border-box for consistent sizing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Sets base styles for the body, including font, gradient background, and full viewport height */
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #fff9e6, #ffe6f2);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Header Section */
+.header {
+    /* Image background for the header */
+            background-image: url("hero1.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 15px 0;
+            box-shadow: 0 8px 25px rgba(255,107,157,0.3);
+            position: relative;
+            overflow: hidden;
+}
+        }
+        
+        /* Adds a shimmering top border effect to the header */
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #fff, #ff6b9d, #4ecdc4, #fff);
+            animation: shimmer 3s infinite;
+        }
+        
+        /* Defines the shimmer animation for the header's top border */
+        @keyframes shimmer {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        /* Centers content with a maximum width and padding */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Flexbox layout for header content with space-between alignment */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        /* Styles the logo with a gradient text effect and bounce animation */
+        .logo {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2.8rem;
+            background: linear-gradient(45deg, #fff, #ffe6f2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            letter-spacing: 3px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        /* Defines the bounce animation for the logo */
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        
+        /* Styles the chef icon with a circular gradient background and spinning animation */
+        .chef-icon {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, #fff, #ffe6f2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            box-shadow: 0 8px 25px rgba(255,255,255,0.4);
+            animation: spin 8s linear infinite;
+        }
+        
+        /* Defines the spin animation for the chef icon */
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Flexbox layout for navigation links with spacing */
+        .nav {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        /* Styles navigation links with hover effects and rounded corners */
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 10px 15px;
+            border-radius: 25px;
+        }
+        
+        /* Hover effect for navigation links */
+        .nav a:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Hero Section */
+        .hero {
+            /* Adds padding and a gradient background for the hero section */
+            padding: 100px 0;
+            background: linear-gradient(135deg, #ffe6f2, #fff9e6, #e6f3ff);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Adds a subtle background image with low opacity (commented as placeholder) */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://imgur.com/a/HSue52N') center/cover;
+            opacity: 0.1;
+            z-index: 0;
+        }
+        
+        /* Flexbox layout for hero content with spacing and responsive wrapping */
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Ensures hero text takes up at least one flex unit and has a minimum width */
+        .hero-text {
+            flex: 1;
+            min-width: 350px;
+        }
+        
+        /* Styles the hero heading with gradient text and color-shifting animation */
+        .heroを購入
+
+
+
+<xaiArtifact artifact_id="fadd4211-e2be-4f79-b131-e41bec94361e" artifact_version_id="26ddb4f2-2a8b-43d0-9f21-e1e5e7d9510b" title="index.html" contentType="text/html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Specifies character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Ensures responsive viewport scaling for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets the page title displayed in the browser tab -->
+    <title>Retro Diner - Best Burgers & Ice Cream in Town</title>
+    <style>
+        /* Imports Google Fonts: Fredoka One for headings and Nunito for body text */
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Nunito:wght@300;400;600;700;800&display=swap');
+        
+        /* Resets default margins, padding, and sets box-sizing to border-box for consistent sizing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Sets base styles for the body, including font, gradient background, and full viewport height */
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #fff9e6, #ffe6f2);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Header Section */
+        .header {
+            /* Gradient background for the header with a shadow effect */
+            background: linear-gradient(135deg, #ff6b9d, #ff8e53, #4ecdc4);
+            padding: 15px 0;
+            box-shadow: 0 8px 25px rgba(255,107,157,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Adds a shimmering top border effect to the header */
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #fff, #ff6b9d, #4ecdc4, #fff);
+            animation: shimmer 3s infinite;
+        }
+        
+        /* Defines the shimmer animation for the header's top border */
+        @keyframes shimmer {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        /* Centers content with a maximum width and padding */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Flexbox layout for header content with space-between alignment */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        /* Styles the logo with a gradient text effect and bounce animation */
+        .logo {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2.8rem;
+            background: linear-gradient(45deg, #fff, #ffe6f2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            letter-spacing: 3px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        /* Defines the bounce animation for the logo */
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        
+        /* Styles the chef icon with a circular gradient background and spinning animation */
+        .chef-icon {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, #fff, #ffe6f2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            box-shadow: 0 8px 25px rgba(255,255,255,0.4);
+            animation: spin 8s linear infinite;
+        }
+        
+        /* Defines the spin animation for the chef icon */
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Flexbox layout for navigation links with spacing */
+        .nav {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        /* Styles navigation links with hover effects and rounded corners */
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 10px 15px;
+            border-radius: 25px;
+        }
+        
+        /* Hover effect for navigation links */
+        .nav a:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Hero Section */
+        .hero {
+            /* Adds padding and a gradient background for the hero section */
+            padding: 100px 0;
+            background: linear-gradient(135deg, #ffe6f2, #fff9e6, #e6f3ff);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Adds a subtle background image with low opacity (commented as placeholder) */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://imgur.com/a/HSue52N') center/cover;
+            opacity: 0.1;
+            z-index: 0;
+        }
+        
+        /* Flexbox layout for hero content with spacing and responsive wrapping */
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Ensures hero text takes up at least one flex unit and has a minimum width */
+        .hero-text {
+            flex: 1;
+            min-width: 350px;
+        }
+        
+        /* Styles the hero heading with gradient text and color-shifting animation */
+        .hero h1 {
+            font-family: 'Fredoka One', cursive;
+            font-size: 4rem;
+            background: linear-gradient(45deg, #ff6b9d, #4ecdc4, #ff8e53);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 25px;
+            animation: colorShift 4s ease-in-out infinite;
+            line-height: 1.1;
+        }
+        
+        /* Defines the color-shifting animation for the hero heading */
+        @keyframes colorShift {
+            0%, 100% { filter: hue-rotate(0deg); }
+            50% { filter: hue-rotate(180deg); }
+        }
+        
+        /* Styles the hero paragraph text */
+        .hero p {
+            font-size: 1.4rem;
+            color: #666;
+            margin-bottom: 35px;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+        
+        /* Styles the special banner with a gradient background and wiggle animation */
+        .special-banner {
+            background: linear-gradient(135deg, #ff6b9d, #ff8e53);
+            color: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(255,107,157,0.4);
+            position: relative;
+            overflow: hidden;
+            transform: rotate(-1deg);
+            margin: 30px 0;
+            animation: wiggle 6s ease-in-out infinite;
+        }
+        
+        /* Defines the wiggle animation for the special banner */
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(-1deg) scale(1); }
+            25% { transform: rotate(1deg) scale(1.02); }
+            50% { transform: rotate(-0.5deg) scale(1); }
+            75% { transform: rotate(0.5deg) scale(1.01); }
+        }
+        
+        /* Adds a rotating gradient border effect behind the special banner */
+        .special-banner::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background: linear-gradient(45deg, #4ecdc4, #ff6b9d, #ff8e53, #4ecdc4);
+            border-radius: 25px;
+            z-index: -1;
+            animation: rotate 8s linear infinite;
+        }
+        
+        /* Defines the rotation animation for the special banner's border */
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Styles the special price text with a large, bold font and shadow */
+        .special-price {
+            font-size: 5rem;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+            font-family: 'Fredoka One', cursive;
+        }
+        
+        /* Styles the special text in the banner */
+        .special-text {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2.2rem;
+            margin: 15px 0;
+            text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+        }
+        
+        /* Centers the hero image with flexbox */
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 350px;
+        }
+        
+        /* Applies a floating animation to the food showcase */
+        .food-showcase {
+            position: relative;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        /* Defines the float animation for the food showcase */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-15px) rotate(1deg); }
+            66% { transform: translateY(-5px) rotate(-1deg); }
+        }
+        
+        /* Flexbox layout for the burger combo with spacing */
+        .burger-combo {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            filter: drop-shadow(0 15px 35px rgba(255,107,157,0.3));
+        }
+        
+        /* Adds smooth transitions to burger, fries, and shake elements */
+        .burger, .fries, .shake {
+            transition: all 0.3s ease;
+        }
+        
+        /* Hover effect for burger, fries, and shake elements */
+        .burger:hover, .fries:hover, .shake:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        /* Styles the burger with a gradient background and pulse animation */
+        .burger {
+            width: 220px;
+            height: 170px;
+            background: linear-gradient(135deg, #ffb347, #ff8e53);
+            border-radius: 50% 50% 45% 45%;
+            position: relative;
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        /* Defines the pulse animation for the burger */
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        /* Adds a burger emoji with a rotating animation */
+        .burger::before {
+            content: '🍔';
+            font-size: 140px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: rotate-emoji 10s linear infinite;
+        }
+        
+        /* Defines the emoji rotation animation */
+        @keyframes rotate-emoji {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        /* Styles the fries with a gradient background and shake animation */
+        .fries {
+            width: 90px;
+            height: 130px;
+            background: linear-gradient(135deg, #ffd700, #ffeb3b);
+            border-radius: 8px 8px 0 0;
+            position: relative;
+            animation: shake 4s ease-in-out infinite;
+        }
+        
+        /* Defines the shake animation for the fries */
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-2px); }
+            75% { transform: translateX(2px); }
+        }
+        
+        /* Adds a fries emoji */
+        .fries::before {
+            content: '🍟';
+            font-size: 70px;
+            position: absolute;
+            top: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        /* Styles the shake with a gradient background and sway animation */
+        .shake {
+            width: 110px;
+            height: 150px;
+            background: linear-gradient(135deg, #ff6b9d, #ff8e53);
+            border-radius: 8px 8px 25px 25px;
+            position: relative;
+            animation: sway 5s ease-in-out infinite;
+        }
+        
+        /* Defines the sway animation for the shake */
+        @keyframes sway {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-3deg); }
+            75% { transform: rotate(3deg); }
+        }
+        
+        /* Adds a shake emoji */
+        .shake::before {
+            content: '🥤';
+            font-size: 85px;
+            position: absolute;
+            top: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Menu Categories Section */
+        .menu-categories {
+            /* Adds padding and a gradient background for the menu section */
+            padding: 100px 0;
+            background: linear-gradient(135deg, #fff9e6, #ffe6f2, #e6f3ff);
+            position: relative;
+        }
+        
+        /* Grid layout for menu categories with responsive columns */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 50px;
+            margin-top: 60px;
+        }
+        
+        /* Styles each category card with a gradient background and hover effects */
+        .category-card {
+            background: linear-gradient(135deg, #fff, #fffbf7);
+            border-radius: 30px;
+            padding: 35px;
+            box-shadow: 0 20px 50px rgba(255,107,157,0.15);
+            transition: all 0.4s ease;
+            border: 3px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Adds a gradient top border to category cards */
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #ff6b9d, #4ecdc4, #ff8e53);
+            border-radius: 30px 30px 0 0;
+        }
+        
+        /* Hover effect for category cards */
+        .category-card:hover {
+            transform: translateY(-15px) rotate(1deg);
+            box-shadow: 0 30px 70px rgba(255,107,157,0.25);
+            border-color: #ff6b9d;
+        }
+        
+        /* Styles the category icon with a bounce animation */
+        .category-icon {
+            font-size: 4.5rem;
+            text-align: center;
+            margin-bottom: 25px;
+            animation: bounce-icon 3s ease-in-out infinite;
+        }
+        
+        /* Defines the bounce animation for category icons */
+        @keyframes bounce-icon {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-8px); }
+            60% { transform: translateY(-4px); }
+        }
+        
+        /* Styles the category title with gradient text */
+        .category-title {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2.2rem;
+            background: linear-gradient(45deg, #ff6b9d, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        /* Removes default list styling for menu items */
+        .category-items {
+            list-style: none;
+        }
+        
+        /* Flexbox layout for menu items with dotted borders */
+        .category-items li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 2px dotted #ffe6f2;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
+        
+        /* Hover effect for menu items */
+        .category-items li:hover {
+            background: linear-gradient(135deg, #ffe6f2, #fff9e6);
+            padding-left: 15px;
+            padding-right: 15px;
+            transform: scale(1.02);
+        }
+        
+        /* Styles the item names */
+        .item-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+        }
+        
+        /* Styles the item prices with a gradient background and shadow */
+        .item-price {
+            font-weight: 800;
+            background: linear-gradient(135deg, #ff6b9d, #ff8e53);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 1rem;
+            box-shadow: 0 4px 15px rgba(255,107,157,0.3);
+        }
+
+        /* Contact & Hours Section */
+        .contact-section {
+            /* Gradient background with a subtle pattern for the contact section */
+            background: linear-gradient(135deg, #ff6b9d, #4ecdc4, #ff8e53);
+            color: white;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Adds a moving radial gradient background pattern */
+        .contact-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: move-bg 20s linear infinite;
+        }
+        
+        /* Defines the background movement animation */
+        @keyframes move-bg {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+        
+        /* Grid layout for contact cards with responsive columns */
+        .contact-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 50px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Styles contact cards with a semi-transparent background and blur effect */
+        .contact-card {
+            background: rgba(255,255,255,0.15);
+            padding: 40px;
+            border-radius: 25px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        /* Hover effect for contact cards */
+        .contact-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255,255,255,0.2);
+        }
+        
+        /* Styles contact card headings */
+        .contact-card h3 {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        /* Footer Section */
+        .footer {
+            /* Dark gradient background for the footer */
+            background: linear-gradient(135deg, #333, #555);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            font-weight: 400;
+        }
+        
+        /* Styles section titles with gradient text and glow animation */
+        .section-title {
+            font-family: 'Fredoka One', cursive;
+            font-size: 3.5rem;
+            background: linear-gradient(45deg, #ff6b9d, #4ecdc4, #ff8e53);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+            margin-bottom: 30px;
+            animation: title-glow 3s ease-in-out infinite;
+        }
+        
+        /* Defines the glow animation for section titles */
+        @keyframes title-glow {
+            0%, 100% { filter: brightness(1) saturate(1); }
+            50% { filter: brightness(1.2) saturate(1.3); }
+        }
+
+        /* Floating Emojis */
+        .floating-emoji {
+            /* Styles floating emojis with a random animation for a playful effect */
+            position: fixed;
+            font-size: 2rem;
+            animation: float-around 15s linear infinite;
+            pointer-events: none;
+            z-index: -1;
+            opacity: 0.6;
+        }
+        
+        /* Defines the float-around animation for emojis */
+        @keyframes float-around {
+            0% { transform: translateY(100vh) rotate(0deg); }
+            100% { transform: translateY(-100px) rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            /* Adjusts logo size for smaller screens */
+            .logo { font-size: 2.2rem; }
+            /* Reduces hero heading size */
+            .hero h1 { font-size: 2.8rem; }
+            /* Reduces special price text size */
+            .special-price { font-size: 3.5rem; }
+            /* Reduces special text size */
+            .special-text { font-size: 1.8rem; }
+            /* Adjusts navigation spacing */
+            .nav { gap: 20px; margin-top: 20px; }
+            /* Stacks hero content vertically */
+            .hero-content { flex-direction: column; text-align: center; }
+            /* Stacks burger combo vertically */
+            .burger-combo { flex-direction: column; gap: 15px; }
+            /* Scales down burger, fries, and shake elements */
+            .burger, .fries, .shake { transform: scale(0.8); }
+        }
+
+        /* Scroll Animations */
+        .fade-in {
+            /* Initial state for fade-in elements */
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s ease;
+        }
+        
+        /* Visible state for fade-in elements when they enter the viewport */
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating emojis positioned at different horizontal locations with staggered animation delays -->
+    <div class="floating-emoji" style="left: 10%; animation-delay: 0s;">🍔</div>
+    <div class="floating-emoji" style="left: 20%; animation-delay: 2s;">🍟</div>
+    <div class="floating-emoji" style="left: 30%; animation-delay: 4s;">🥤</div>
+    <div class="floating-emoji" style="left: 40%; animation-delay: 6s;">🍦</div>
+    <div class="floating-emoji" style="left: 50%; animation-delay: 8s;">🌭</div>
+    <div class="floating-emoji" style="left: 60%; animation-delay: 10s;">🧇</div>
+    <div class="floating-emoji" style="left: 70%; animation-delay: 12s;">🍔</div>
+    <div class="floating-emoji" style="left: 80%; animation-delay: 14s;">🍟</div>
+    <div class="floating-emoji" style="left: 90%; animation-delay: 1s;">🥤</div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo with playful gradient text -->
+                <div class="logo">Bundy's Burgers & Ice Cream</div>
+                <!-- Navigation menu with links to different sections -->
+                <nav class="nav">
+                    <a href="#home">🏠 Home</a>
+                    <a href="#about">✨ About</a>
+                    <a href="#menu">🍽️ Menu</a>
+                    <a href="#contact">📞 Contact</a>
+                
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <!-- Main heading with gradient text -->
+                    <h1>Welcome to Bundy's!</h1>
+                    <!-- Introductory paragraph -->
+                    <p>🎉 Get ready for the most delicious adventure! Our magical burgers, creamy shakes, and crispy fries are made with love, laughter, and a sprinkle of happiness. Every bite is a party! 🎊</p>
+                    <!-- Special offer banner with price and description -->
+                    <div class="special-banner">
+                        <div class="special-price">$11</div>
+                        <div class="special-text">🏆 PARTY COMBO 🏆</div>
+                        <div class="special-text">Burger Special</div>
+                        <p style="font-size: 1.1rem; margin-top: 15px;">Mega cheeseburger + crispy fries + thick shake = Pure joy! 😋</p>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Categories Section -->
+    <section id="menu" class="menu-categories">
+        <div class="container">
+            <!-- Section title for the menu -->
+            <h2 class="section-title">Our Amazing Menu! 🌈</h2>
+            <div class="categories-grid">
+                <!-- Burgers Category -->
+                <div class="category-card fade-in">
+                    <div class="category-icon">🍔</div>
+                    <h3 class="category-title">SUPER BURGERS</h3>
+                    <ul class="category-items">
+                        <li>
+                            <span class="item-name">🧀 Classic Cheeseburger</span>
+                            <span class="item-price">$8.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🥓 Bacon Deluxe Wonder</span>
+                            <span class="item-price">$11.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍄 Mushroom Swiss Magic</span>
+                            <span class="item-price">$10.49</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🔥 BBQ Ranch Explosion</span>
+                            <span class="item-price">$12.49</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🌱 Garden Veggie Delight</span>
+                            <span class="item-price">$9.99</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Hot Dogs Category -->
+                <div class="category-card fade-in">
+                    <div class="category-icon">🌭</div>
+                    <h3 class="category-title">HOT DOG PARTY</h3>
+                    <ul class="category-items">
+                        <li>
+                            <span class="item-name">🌟 Classic Fun Dog</span>
+                            <span class="item-price">$4.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🌶️ Chili Cheese Fiesta</span>
+                            <span class="item-price">$6.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🏙️ Chicago Style Supreme</span>
+                            <span class="item-price">$7.49</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🥓 Bacon Wrapped Joy</span>
+                            <span class="item-price">$7.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🌽 Golden Corn Dog</span>
+                            <span class="item-price">$5.49</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Shakes & Ice Cream Category -->
+                <div class="category-card fade-in">
+                    <div class="category-icon">🍦</div>
+                    <h3 class="category-title">SHAKE HEAVEN</h3>
+                    <ul class="category-items">
+                        <li>
+                            <span class="item-name">🤍 Vanilla Dream Shake</span>
+                            <span class="item-price">$4.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍫 Chocolate Happiness</span>
+                            <span class="item-price">$4.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍓 Strawberry Bliss</span>
+                            <span class="item-price">$4.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍪 Oreo Cookie Madness</span>
+                            <span class="item-price">$5.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🥜 Peanut Butter Paradise</span>
+                            <span class="item-price">$5.99</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Breakfast Category -->
+                <div class="category-card fade-in">
+                    <div class="category-icon">🧇</div>
+                    <h3 class="category-title">BREAKFAST FUN</h3>
+                    <ul class="category-items">
+                        <li>
+                            <span class="item-name">🥞 Fluffy Pancake Tower</span>
+                            <span class="item-price">$7.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🧇 Belgian Waffle Wonder</span>
+                            <span class="item-price">$8.49</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍳 Breakfast Burger Bonanza</span>
+                            <span class="item-price">$9.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍞 French Toast Fantasy</span>
+                            <span class="item-price">$6.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🥓 Eggs & Bacon Classic</span>
+                            <span class="item-price">$8.99</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sides Category -->
+                <div class="category-card fade-in">
+                    <div class="category-icon">🍟</div>
+                    <h3 class="category-title">CRISPY SIDES</h3>
+                    <ul class="category-items">
+                        <li>
+                            <span class="item-name">🍟 Golden Crispy Fries</span>
+                            <span class="item-price">$3.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍠 Sweet Potato Magic</span>
+                            <span class="item-price">$4.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🧅 Onion Ring Circles</span>
+                            <span class="item-price">$4.49</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🧀 Loaded Fries Fiesta</span>
+                            <span class="item-price">$6.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🧀 Mozzarella Stick Party</span>
+                            <span class="item-price">$5.99</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Beverages Category -->
+                <div class="category-card fade-in">
+                    <div class="category-icon">🥤</div>
+                    <h3 class="category-title">HAPPY DRINKS</h3>
+                    <ul class="category-items">
+                        <li>
+                            <span class="item-name">☕ Fresh Morning Coffee</span>
+                            <span class="item-price">$2.49</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🥤 Fizzy Soft Drinks</span>
+                            <span class="item-price">$2.99</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍋 Fresh Lemonade Splash</span>
+                            <span class="item-price">$3.49</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🧊 Cool Iced Tea</span>
+                            <span class="item-price">$2.79</span>
+                        </li>
+                        <li>
+                            <span class="item-name">🍦 Root Beer Float Fun</span>
+                            <span class="item-price">$4.99</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Hours Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <!-- Section title for contact information -->
+            <h2 class="section-title" style="color: white;">Come Play Eat With Us! 🎊</h2>
+            <div class="contact-content">
+                <!-- Location card -->
+                <div class="contact-card">
+                    <h3>📍 Location</h3>
+                    <p>123 Happiness Street<br> Joy District<br> Fun City, FC 12345</p>
+                </div>
+                <!-- Contact details card -->
+                <div class="contact-card">
+                    <h3>📞 Need to Call Us?</h3>
+                    <p>Phone: (555) 123-DINE<br> Email: hello@retrodiner.com<br> Follow: @RetroFunDiner</p>
+                </div>
+                <!-- Operating hours card -->
+                <div class="contact-card">
+                    <h3>🕒 Hours</h3>
+                    <p>Mon-Thu: 7AM - 10PM<br> Fri-Sat: 7AM - 11PM<br> Sunday: 8AM - 9PM</p>
+                </div>
+                <!-- Special events card -->
+                <div class="contact-card">
+                    <h3>🎉 Specials</h3>
+                    <p>Happy Hour: 3-6PM 🎈<br> Family Night: Tuesdays 👨‍👩‍👧‍👦<br> Kids Eat Free: Sundays 🎪</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer text with copyright and playful message -->
+            <p>&copy; 2025 Retro Diner - Where Every Meal is a Celebration! 🎉 | Made with ❤️ and lots of sprinkles!</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // Prevents default anchor behavior
+                e.preventDefault();
+                // Gets the target section
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    // Smoothly scrolls to the target section
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Fade-in animation on scroll
+        const observerOptions = {
+            // Triggers when 10% of the element is visible
+            threshold: 0.1,
+            // Adds a margin to trigger the animation slightly before the element enters the viewport
+            rootMargin: '0px 0px -50px 0px'
+        };
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Adds 'visible' class to trigger fade-in animation
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        // Observes all elements with the 'fade-in' class
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Adds interactive hover effects to menu items
+        document.querySelectorAll('.category-items li').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                // Scales and shifts the item on hover
+                this.style.transform = 'scale(1.05) translateX(10px)';
+                this.style.background = 'linear-gradient(135deg, #ffe6f2, #fff9e6)';
+            });
+            item.addEventListener('mouseleave', function() {
+                // Resets styles on mouse leave
+                this.style.transform = 'scale(1) translateX(0)';
+                this.style.background = '';
+            });
+        });
+
+        // Adds click effects to category cards
+        document.querySelectorAll('.category-card').forEach(card => {
+            card.addEventListener('click', function() {
+                // Temporarily scales the card on click
+                this.style.transform = 'scale(1.02) rotate(0deg)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 200);
+            });
+        });
+
+        // Random floating emoji generator
+        function createFloatingEmoji() {
+            // Array of emojis to choose from
+            const emojis = ['🍔', '🍟', '🥤', '🍦', '🌭', '🧇', '🍕', '🎉', '⭐', '💖'];
+            // Creates a new emoji element
+            const emoji = document.createElement('div');
+            emoji.className = 'floating-emoji';
+            // Randomly selects an emoji
+            emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            // Randomly positions the emoji horizontally
+            emoji.style.left = Math.random() * 100 + '%';
+            // Randomizes animation duration
+            emoji.style.animationDuration = (10 + Math.random() * 10) + 's';
+            // Randomizes emoji size
+            emoji.style.fontSize = (1.5 + Math.random()) + 'rem';
+            // Adds the emoji to the document
+            document.body.appendChild(emoji);
+            // Removes the emoji after 20 seconds
+            setTimeout(() => {
+                emoji.remove();
+            }, 20000);
+        }
+
+        // Creates new floating emojis every 3 seconds
+        setInterval(createFloatingEmoji, 3000);
+
+        // Adds sparkle effect to the special banner on hover
+        const specialBanner = document.querySelector('.special-banner');
+        specialBanner.addEventListener('mouseenter', function() {
+            // Applies wiggle and sparkle animations on hover
+            this.style.animation = 'wiggle 0.5s ease-in-out, sparkle 2s ease-in-out infinite';
+        });
+        specialBanner.addEventListener('mouseleave', function() {
+            // Reverts to the default wiggle animation
+            this.style.animation = 'wiggle 6s ease-in-out infinite';
+        });
+
+        // Adds a ripple effect on click anywhere on the page
+        document.addEventListener('click', function(e) {
+            // Creates a ripple element
+            const ripple = document.createElement('div');
+            ripple.style.position = 'fixed';
+            ripple.style.borderRadius = '50%';
+            ripple.style.background = 'rgba(255, 107, 157, 0.6)';
+            ripple.style.transform = 'scale(0)';
+            ripple.style.animation = 'ripple 0.6s linear';
+            ripple.style.left = (e.clientX - 25) + 'px';
+            ripple.style.top = (e.clientY - 25) + 'px';
+            ripple.style.width = '50px';
+            ripple.style.height = '50px';
+            ripple.style.pointerEvents = 'none';
+            ripple.style.zIndex = '9999';
+            // Adds the ripple to the document
+            document.body.appendChild(ripple);
+            // Removes the ripple after the animation completes
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+
+        // Dynamically adds ripple and sparkle animation CSS
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to { transform: scale(4); opacity: 0; }
+            }
+            @keyframes sparkle {
+                0%, 100% { filter: brightness(1) saturate(1); }
+                50% { filter: brightness(1.3) saturate(1.5) hue-rotate(30deg); }
+            }
+        `;
+        // Appends the style element to the document head
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
